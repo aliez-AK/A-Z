@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="htmlover">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, inital-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="txxz/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="txxz/css/nigran.datepicker.css"/>
+<link rel="stylesheet" type="text/css" href="txxz/css/jquery-ui-1.10.1.css"/>
+<link rel="stylesheet" type="text/css" href="txxz/css/style.css"/>
+<script type="text/javascript" src="txxz/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="txxz/js/jquery-ui-1.10.1.min.js"></script>
+<script type="text/javascript" src="txxz/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="txxz/js/style.js"></script>
+
+<title>全球旅拍</title>
+</head>
+
+<body>
+      <!--gm前缀是制作人的name-->
+      <div class="gmhead">
+      	   <span><img src="txxz/images/logo.jpg" /></span>
+      </div>
+      <div class="gmbanner">
+      	   <ul class="clearfix">
+           	   <li><a href=""><img src="txxz/images/banner.jpg" /></a></li>
+           </ul>
+      </div>
+      <div class="gmmain">
+      	   <div class="gmwrapper">
+           		<h2>产品订购</h2>
+           		<div class="gmnav gmcenter" >
+                     <ul class="clearfix gmselect">
+						 <li>
+                             <a href="#base">
+                                <p>选择基地</p>
+                                <span class="ahead"></span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#photographer">
+                                <span class="topright"></span>
+                                <span class="bottomleft"></span>
+                                <p>选择摄影师</p>
+                                <span class="ahead"></span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#schedule">
+                                <span class="topright"></span>
+                                <span class="bottomleft"></span>
+                                <p>选择档期</p>
+                                <span class="ahead"></span>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#service">
+                                <span class="topright"></span>
+                                <span class="bottomleft"></span>
+                                <p>预定套餐</p>
+                                <span class="ahead"></span>
+                             </a>
+                         </li>
+                     </ul>
+                </div>
+                <div id="base"></div>
+                <div class="gmbase gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择基地</h2>
+                           <ul>
+                           	   <li>国内<i></i></li>
+                               <li>国外<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                     	  <ul>
+                          	  <li>
+                                  <div class="selprovinces">
+                                        <p>省份</p>
+                                        <span>
+                                        <select id="s_province" name="s_province"></select> 
+                                        </span> 
+                                  </div>
+                                  <div class="selcity">
+                                        <p>城市</p>
+                                        <span>
+                                        <select id="s_city" name="s_city" ></select>
+                                        </span>
+                                  </div>
+                                 <ul class="clearfix smallnav">
+                                     <li>三亚</li>
+                                     <li>桂林</li>
+                                     <li>苏州</li>
+                                     <li>马尔代夫</li>
+                                     <li>云南</li>
+                                     <li>上海</li>
+                                 </ul>
+                                 <ul class="clearfix picnav">
+                                     <li><img src="txxz/images/basepic1.jpg" /></li>
+                                     <li><img src="txxz/images/basepic2.jpg" /></li>
+                                     <li><img src="txxz/images/basepic3.jpg" /></li>
+                                 </ul>
+                          	  </li>
+                           </ul>
+                           <ul>
+                           		<li>
+                                	<div class="selprovinces">
+                                        <p>省份</p>
+                                        <span>
+                                        <select id="s_province" name="s_province"></select> 
+                                        </span> 
+                                  </div>
+                                  <div class="selcity">
+                                        <p>城市</p>
+                                        <span>
+                                        <select id="s_city" name="s_city" ></select>
+                                        </span>
+                                  </div>
+                                 <ul class="clearfix smallnav">
+                                     <li>三亚</li>
+                                     <li>桂林</li>
+                                     <li>苏州</li>
+                                     <li>马尔代夫</li>
+                                     <li>云南</li>
+                                     <li>上海</li>
+                                 </ul>
+                                 <ul class="clearfix picnav">
+                                     <li><img src="txxz/images/basepic1.jpg" /></li>
+                                     <li><img src="txxz/images/basepic2.jpg" /></li>
+                                     <li><img src="txxz/images/basepic3.jpg" /></li>
+                                 </ul>
+                                </li>
+                           </ul>
+                           <script type="text/javascript" src="txxz/js/area.js"></script>
+                           <script type="text/javascript">_init_area();</script>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmbase").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div id="photographer"></div>
+                <div class="gmphotographer gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择摄影师</h2>
+                           <ul class="clearfix">
+                           	   <li>性别<i></i></li>
+                               <li>直属基地<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="selsex">
+                                   		<label class="boy" for="sex">男</label>
+                                        <input name="sex" type="radio" value="男" id="sex" checked="checked"/>
+                                        <label class="girl" for="sex2">女</label>
+                                        <input name="sex" type="radio" value="女" id="sex2"/>
+                                   </div>
+                                   <ul class="grapher clearfix">
+                                   	   <li>
+                                       	   <label for="grapher3" class="labelon"><a href="javascript:void()"></a></label>
+                                           <input name="grapher" type="radio" value="韩昊东老师" id="grapher3" checked="checked"/>
+                                           <div class="phopic">
+                                           		<img src="txxz/images/pho3.jpg" />
+                                           </div>
+                                           <div class="detail">
+                                               <span>姓名：<p class="teacher">韩昊东老师</p></span>
+                                               <span style="margin-left:37px;">性别：<p class="teachersex">男</p></span>
+                                               <span style="display:block;margin-top:21px;">所属基地：<p class="place">全球旅拍韩国基地</p></span>
+                                               <span style="display:block;margin-top:21px;">座右铭：<b>要么努力取得成功，要么被无情的淘汰！</b></span>
+                                           </div>
+                                       </li>
+                                       <li>
+                                       	   <label for="grapher4"><a href="javascript:void()"></a></label>
+                                           <input name="grapher" type="radio" value="凯文老师" id="grapher4"/>
+                                           <div class="phopic">
+                                           		<img src="txxz/images/pho4.jpg" />
+                                           </div>
+                                           <div class="detail">
+                                               <span>姓名：<p class="teacher">凯文老师</p></span>
+                                               <span style="margin-left:37px;">性别：<p class="teachersex">男</p></span>
+                                               <span style="display:block;margin-top:21px;">所属基地：<p class="place">全球旅拍上海基地</p></span>
+                                               <span style="display:block;margin-top:21px;">座右铭：<b>要么努力取得成功，要么被无情的淘汰！</b></span>
+                                           </div>
+                                       </li>
+                                   	   <li>
+                                       	   <label for="grapher"><a href="javascript:void()"></a></label>
+                                           <input name="grapher" type="radio" value="盼盼老师" id="grapher"/>
+                                           <div class="phopic">
+                                           		<img src="txxz/images/pho1.jpg" />
+                                           </div>
+                                           <div class="detail">
+                                               <span>姓名：<p class="teacher">盼盼老师</p></span>
+                                               <span style="margin-left:37px;">性别：<p class="teachersex">女</p></span>
+                                               <span style="display:block;margin-top:21px;">所属基地：<p class="place">全球旅拍三亚直营基地</p></span>
+                                               <span style="display:block;margin-top:21px;">座右铭：<b>要么努力取得成功，要么被无情的淘汰！</b></span>
+                                           </div>
+                                       </li>
+                                       <li>
+                                       	   <label for="grapher2"><a href="javascript:void()"></a></label>
+                                           <input name="grapher" type="radio" value="ALICE" id="grapher2"/>
+                                           <div class="phopic">
+                                           		<img src="txxz/images/pho2.jpg" />
+                                           </div>
+                                           <div class="detail">
+                                               <span>姓名：<p class="teacher">ALICE</p></span>
+                                               <span style="margin-left:37px;">性别：<p class="teachersex">女</p></span>
+                                               <span style="display:block;margin-top:21px;">所属基地：<p class="place">全球旅拍法国基地</p></span>
+                                               <span style="display:block;margin-top:21px;">座右铭：<b>要么努力取得成功，要么被无情的淘汰！</b></span>
+                                           </div>
+                                       </li>
+                                       
+                                   </ul>
+                               </li>
+                           </ul>
+                           <ul class="clearfix">
+                           		<li>
+                               	   <div class="selsex">
+                                   		<label class="boy" for="sex">男</label>
+                                        <input name="sex" type="radio" value="男" id="sex" checked="checked"/>
+                                        <label class="girl" for="sex2">女</label>
+                                        <input name="sex" type="radio" value="女" id="sex2"/>
+                                   </div>
+                                   <ul class="grapher clearfix">
+                                   	   <li>
+                                       	   <label><a href=""></a></label>
+                                           <div class="phopic">
+                                           		<img src="txxz/images/pho1.jpg" />
+                                           </div>
+                                           <div class="detail">
+                                               <span>姓名：<p>盼盼老师</p></span>
+                                               <span style="margin-left:37px;">性别：<p>女</p></span>
+                                               <span style="display:block;margin-top:21px;">所属基地：<p>全球旅拍三亚直营基地</p></span>
+                                               <span style="display:block;margin-top:21px;">座右铭：<b>要么努力取得成功，要么被无情的淘汰！</b></span>
+                                           </div>
+                                       </li>
+                                       <li>
+                                       	   <label><a href=""></a></label>
+                                           <div class="phopic">
+                                           		<img src="txxz/images/pho2.jpg" />
+                                           </div>
+                                           <div class="detail">
+                                               <span>姓名：<p>ALICE</p></span>
+                                               <span style="margin-left:37px;">性别：<p>女</p></span>
+                                               <span style="display:block;margin-top:21px;">所属基地：<p>全球旅拍法国基地</p></span>
+                                               <span style="display:block;margin-top:21px;">座右铭：<b>要么努力取得成功，要么被无情的淘汰！</b></span>
+                                           </div>
+                                       </li>
+                                   </ul>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmphotographer").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div id="schedule"></div>
+                <div class="gmschedule gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择档期</h2>
+                           <ul class="clearfix">
+                           	   <li>预定档期<i></i></li>
+                               <li>定制档期<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="datepicker ll-skin-nigran"></div>
+                                   <div class="comments">
+                                   		<span style="background:#6CF"></span>
+                                        <p>已选择预约</p>
+                                        <span style="background:#29a2d9"></span>
+                                        <p>可选择预约</p>
+                                        <span style="background:#F00"></span>
+                                        <p>不可预约</p>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                     <script type="text/javascript">
+                     		 $(function(){
+								 $( ".datepicker" ).datepicker({
+										inline: true,
+										showOtherMonths: true
+									});
+						     })
+                     </script>
+                </div>
+                <script type="text/javascript">jQuery(".gmschedule").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div id="service"></div>
+                <div class="gmservice  gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择服务类型</h2>
+                           <ul class="clearfix">
+                           	   <li>类型<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="gmservicebox">
+                                   		<label for="servicelabel1" class="labelon">婚纱</label>
+                                        <input name="servicelabel" type="checkbox" value="婚纱" checked="checked" id="servicelabel1"/>
+                                        <label for="servicelabel2">亲子</label>
+                                        <input name="servicelabel" type="checkbox" value="亲子" id="servicelabel2"/>
+                                        <label for="servicelabel3">全家福</label>
+                                        <input name="servicelabel" type="checkbox" value="全家福" id="servicelabel3"/>
+                                        <label for="servicelabel4">个人</label>
+                                        <input name="servicelabel" type="checkbox" value="个人" id="servicelabel4"/>
+                                        <label for="servicelabel5">儿童</label>
+                                        <input name="servicelabel" type="checkbox" value="儿童" id="servicelabel5"/>
+                                        <label for="servicelabel6">情侣</label>
+                                        <input name="servicelabel" type="checkbox" value="情侣" id="servicelabel6"/>
+                                        <label for="servicelabel7">其他</label>
+                                        <input name="servicelabel" type="checkbox" value="其他" id="servicelabel7"/>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmservice").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmclothes  gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择拍摄服装</h2>
+                           <ul class="clearfix">
+                           	   <li>服装<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="clothesbox">
+                                   		<div class="clotheslabel">
+                                            <label for="clotheslabel1" class="labelon">3套</label>
+                                            <input name="clotheslabel" type="checkbox" value="3套" checked="checked" id="clotheslabel1"/>
+                                            <label for="clotheslabel2">4套</label>
+                                            <input name="clotheslabel" type="checkbox" value="4套" id="clotheslabel2"/>
+                                            <label for="clotheslabel3">5套</label>
+                                            <input name="clotheslabel" type="checkbox" value="5套" id="clotheslabel3"/>
+                                            <label for="clotheslabel4">6套</label>
+                                            <input name="clotheslabel" type="checkbox" value="6套" id="clotheslabel4"/>
+                                            <label for="clotheslabel5">8套</label>
+                                            <input name="clotheslabel" type="checkbox" value="8套" id="clotheslabel5"/>
+                                            <label for="clotheslabel6">不限</label>
+                                            <input name="clotheslabel" type="checkbox" value="不限" id="clotheslabel6"/>
+                                        </div>
+                                   </div>
+                                   <div class="clothespic" style="margin-left:151px;"><img src="txxz/images/clothes1.jpg" /></div>
+                                   <div class="clothespic"><img src="txxz/images/clothes2.jpg" /></div>
+                                   <div class="clothespic"><img src="txxz/images/clothes3.jpg" /></div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmclothes").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmproject gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择拍摄项目</h2>
+                           <ul class="clearfix">
+                           	   <li>项目<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="projectbox">
+                                   		<div class="projectlabel">
+                                            <label for="projectlabel1" class="labelon">纯拍</label>
+                                            <input name="projectlabel" type="checkbox" value="纯拍" checked="checked" id="projectlabel1"/>
+                                            <label for="projectlabel2">旅游+拍摄</label>
+                                            <input name="projectlabel" type="checkbox" value="旅游+拍摄" id="projectlabel2"/>
+                                            <label for="projectlabel3">婚礼跟拍</label>
+                                            <input name="projectlabel" type="checkbox" value="婚礼跟拍" id="projectlabel3"/>
+                                            <label for="projectlabel4" style="width:183px">私人定制跟拍</label>
+                                            <input name="projectlabel" type="checkbox" value="私人定制跟拍" id="projectlabel4"/>
+                                        </div>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmproject").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmvideo gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择视频拍摄</h2>
+                           <ul class="clearfix">
+                           	   <li>视频拍摄<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="videobox">
+                                   		<div class="projectlabel">
+                                            <label for="videolabel1" class="labelon">MV花絮</label>
+                                            <input name="videolabel" type="checkbox" value="MV花絮" checked="checked" id="videolabel1"/>
+                                            <label for="videolabel2">微电影</label>
+                                            <input name="videolabel" type="checkbox" value="微电影" id="videolabel2"/>
+                                            <label for="videolabel3">定制专辑</label>
+                                            <input name="videolabel" type="checkbox" value="定制专辑" id="videolabel3"/>
+                                            <label for="videolabel4">电子相册</label>
+                                            <input name="videolabel" type="checkbox" value="电子相册" id="videolabel4"/>
+                                        </div>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmvideo").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmscene  gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择拍摄场景</h2>
+                           <ul class="clearfix">
+                           	   <li>场景<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="scenebox">
+                                   		<div class="projectlabel">
+                                            <label for="scenelabel1" class="labelon">大气海景</label>
+                                            <input name="scenelabel" type="checkbox" value="大气海景" checked="checked" id="scenelabel1"/>
+                                            <label for="scenelabel2">绚丽夜景</label>
+                                            <input name="scenelabel" type="checkbox" value="绚丽夜景" id="scenelabel2"/>
+                                            <label for="scenelabel3">季节性花海</label>
+                                            <input name="scenelabel" type="checkbox" value="季节性花海" id="scenelabel3"/>
+                                            <label for="scenelabel4">自然风景</label>
+                                            <input name="scenelabel" type="checkbox" value="自然风景" id="scenelabel4"/>
+                                            <input name="scenetext" type="text" placeholder="自定义场景（我想拍...)" class="scenetext"/>
+                                        </div>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmscene").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmproducts  gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择产品</h2>
+                           <ul class="clearfix">
+                           	   <li style="margin-left:178px;">产品<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="productsbox">
+                                   		<div class="projectlabel">
+                                            <label for="productslabel1" class="labelon">相册/相框/摆台</label>
+                                            <input name="productslabel" type="checkbox" value="相册/相框/摆台" checked="checked" id="productslabel1"/>
+                                            <label for="productslabel2">定制产品</label>
+                                            <input name="productslabel" type="checkbox" value="定制产品" id="productslabel2"/>
+                                            <label for="productslabel3">无需产品</label>
+                                            <input name="productslabel" type="checkbox" value="无需产品" id="productslabel3"/>
+                                            <label for="productslabel4">其他</label>
+                                            <input name="productslabel" type="checkbox" value="其他" id="productslabel4"/>
+
+                                        </div>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmproducts").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmways  gmcenter">
+                	 <div class="hd">
+                     	   <h2>选择旅游方式</h2>
+                           <ul class="clearfix">
+                           	   <li>方式<i></i></li>
+                           </ul>
+                     </div>
+                     <div class="bd">
+                           <ul class="clearfix">
+                           	   <li>
+                               	   <div class="waysbox">
+                                   		<div class="projectlabel">
+                                            <label for="wayslabel1" class="labelon">跟团游</label>
+                                            <input name="wayslabel" type="checkbox" value="跟团游" checked="checked" id="wayslabel1"/>
+                                            <label for="wayslabel2">自由行</label>
+                                            <input name="wayslabel" type="checkbox" value="自由行" id="wayslabel2"/>
+                                            <label for="wayslabel3">自驾游</label>
+                                            <input name="wayslabel" type="checkbox" value="自驾游" id="wayslabel3"/>
+                                            <label for="wayslabel4">以上都行</label>
+                                            <input name="wayslabel" type="checkbox" value="以上都行" id="wayslabel4"/>
+                                            <textarea name="waystext" placeholder="备注:   您对产品的其他要求..." class="waystext"/></textarea>
+                                        </div>
+                                   </div>
+                               </li>
+                           </ul>
+                     </div>
+                </div>
+                <script type="text/javascript">jQuery(".gmways").slide({easing:"easeInQuint",delayTime:0});</script>
+                <div class="gmusertext">
+                     <p>姓名：</p><input name="nametext" class="nametext" type="text" placeholder="*必填">
+                     <p>QQ/微信：</p><input name="qqtext" class="qqtext" type="text">
+                     <p>手机/电话（或其他联系方式）：</p><input name="phonetext" class="phonetext" type="text" placeholder="*必填">
+                </div>
+                <div class="gmconfirm">
+                	 <a href="javascript:void(0)" class="submitted">完成订购</a>
+                     <a href="javascript:void(0)">联系客服</a>
+                </div>
+           </div>
+      </div>
+      <iframe src="concluded.html" class="iframenone" id="iframenone" scrolling="yes"></iframe> 
+</body>
+</html>
